@@ -14,6 +14,7 @@ public class Client {
         this.contact = contact;
         this.stylist_id = stylist_id;
     }
+
     // client class getter methods
     public int getId(){
         return id;
