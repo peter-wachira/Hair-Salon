@@ -1,10 +1,13 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
+apply plugin: 'application'
 
 group 'com.hairsalon.com'
 version '1.0-SNAPSHOT'
 
+archivesBaseName = "HairSalon"
+version = '1.0'
+applicationName = "HairSalon"
+mainClassName = "App"
 sourceCompatibility = 1.8
 
 repositories {
@@ -22,3 +25,6 @@ dependencies {
     compile group: 'org.postgresql', name: 'postgresql', version: "9.4-1201-jdbc41"
     compile group: 'org.slf4j', name : 'slf4j-api', version: '1.7.2'
 }
+
+defaultTasks = ['clean']
+task stage(dependsOn: ['clean', 'installDist'])
