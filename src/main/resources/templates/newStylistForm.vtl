@@ -1,0 +1,94 @@
+ <!--Navbar-->
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#"><strong>Hero Squad</strong></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/clients">Clients</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/stylists">Stylists</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="https://github.com/peter-wachira/"  onclick="btnClick()" class="nav-link border border-light rounded" target="_blank">
+                      <i class="fab fa-github mr-2"></i>GitHub
+                     </a>
+                   </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Navbar -->
+          <!-- Full Page Intro -->
+          <div class="view" style="background-image: url('https://wallpaperplay.com/walls/full/7/9/c/86517.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light align-items-center">
+              <!-- Content -->
+              <div class="container">
+                <!--Grid row-->
+                <div class="indexRow">
+                  <!--Grid column-->
+                  <div class="col-md-12 mb-4">
+                    <h2><u>New Stylist Details</u></h2>
+                    <form class="form-horizontal" action="/stylists" method="post">
+                        <div class="form-group">
+                         <label class="control-label col-sm-2" for="name">Name:</label>
+                         <div class="col-sm-10">
+                           <input type="text" class="form-control" id="name" name ="name" placeholder="Enter Name">
+                         </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-2" for="Gender">Gender:</label>
+                          <label class="radio-inline col-sm-offset-1" for="gender-male">
+                            <input type="radio" id="gender-male" name="gender" value="M" checked="checked">Male
+                          </label>
+                          <label class="radio-inline"><input type="radio" name="gender" value="F">Female</label>
+                        </div>
+
+                        <div class="form-group">
+                         <label class="control-label col-sm-2" for="contact">Phone No:</label>
+                         <div class="col-sm-10">
+                           <input type="text" class="form-control" id="contact" name="contact" placeholder="+254 ..">
+                         </div>
+                        </div>
+
+                        <div class="form-group">
+                         <div class="col-sm-offset-2 col-sm-10">
+                           <button type="submit" class="btn btn-default">Submit</button>
+                         </div>
+                        </div>
+                    </form>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+        </header>
+        <!-- Main navigation -->
+        <!--Main Layout-->
+        <main>
+          <div class="container">
+            <!--Grid row-->
+            <div class="row py-5">
+              <!--Grid column-->
+              <div class="col-md-12 text-center">
+
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+        </main>
+        <!--Main Layout-->
