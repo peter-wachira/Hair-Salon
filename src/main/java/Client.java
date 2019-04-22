@@ -23,6 +23,8 @@ public class Client {
     public String getGender(){
         return gender;
     }
-
+    public String getContact(){
+        return contact;
+    }
 
 }
