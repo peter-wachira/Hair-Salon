@@ -9,7 +9,7 @@ public class Client {
     private int stylist_id;
     // client constuructor
     public Client(String name, String gender, String contact, int stylist_id) {
-        this.name = name.toUpperCase();
+        this.name = name;
         this.gender = gender;
         this.contact = contact;
         this.stylist_id = stylist_id;
@@ -27,6 +27,7 @@ public class Client {
     public String getContact(){
         return contact;
     }
+
     //return stylist Id
     public Stylist getStylist() {
         int id_check = stylist_id;
@@ -60,7 +61,7 @@ public class Client {
               return con.createQuery(sql).executeAndFetch(Client.class);
           }
       }
-      // create  saving method to save client to specific stylist
+      //saving new object to the database && assign the object the same id as its data in the database:
       public void save() {
           try(Connection con = DB.sql2o.open()) {
               String sql = "INSERT INTO clients(name, gender, contact, stylist_id) VALUES (:name, :gender, :contact, :stylist_id)";
