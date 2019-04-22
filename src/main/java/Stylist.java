@@ -21,4 +21,7 @@ public class Stylist {
     public String getGender(){
         return gender;
     }
+    public String getContact(){
+        return contact;
+    }
 }
