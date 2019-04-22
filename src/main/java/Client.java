@@ -14,7 +14,9 @@ public class Client {
         this.contact = contact;
         this.stylist_id = stylist_id;
     }
-
+    public int getId(){
+        return id;
+    }
 
 
 
