@@ -29,7 +29,16 @@ public class App {
         }, new VelocityTemplateEngine());
 
 
-        //new stylist form
+        //stylists path
+        get("/stylists", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            model.put("stylists", Stylist.all());
+            model.put("template", "templates/stylists.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
+
+        //new stylist form path
         get("/stylists/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("template", "templates/newStylistForm.vtl");
