@@ -28,7 +28,7 @@ public class Client {
         return contact;
     }
     //return stylist Id
-    public Stylist getStylist_id() {
+    public Stylist getStylist() {
         int id_check = stylist_id;
         Stylist stylist;
         if(id_check==0){
@@ -60,7 +60,38 @@ public class Client {
               return con.createQuery(sql).executeAndFetch(Client.class);
           }
       }
-      //
-
+      // create  saving method to save client to specific stylist
+      public void save() {
+          try(Connection con = DB.sql2o.open()) {
+              String sql = "INSERT INTO clients(name, gender, contact, stylist_id) VALUES (:name, :gender, :contact, :stylist_id)";
+              this.id = (int) con.createQuery(sql, true)
+                      .addParameter("name", this.name)
+                      .addParameter("gender", this.gender)
+                      .addParameter("contact", this.contact)
+                      .addParameter("stylist_id", this.stylist_id)
+                      .executeUpdate()
+                      .getKey();
+          }
+      }
+      // updating a client object
+      public void update(String name, String gender, String contact, int stylist_id) {
+          try(Connection con = DB.sql2o.open()) {
+              String sql = "UPDATE clients SET name = :name, gender = :gender, contact = :contact, stylist_id = :stylist_id WHERE id = :id";
+              con.createQuery(sql)
+                      .addParameter("name", name)
+                      .addParameter("gender", gender)
+                      .addParameter("contact", contact)
+                      .addParameter("stylist_id", stylist_id)
+                      .addParameter("id", id)
+                      .executeUpdate();
+          }
+      }
+      //deleting a client object
+      public void delete() {
+          try(Connection con = DB.sql2o.open()) {
+              String sql = "DELETE FROM clients WHERE id = :id;";
+              con.createQuery(sql).addParameter("id", id).executeUpdate();
+          }
+      }
 
 }
