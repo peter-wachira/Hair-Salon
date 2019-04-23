@@ -1,4 +1,4 @@
-<div class="view" style="background-image: url('https://wallpaperplay.com/walls/full/2/8/6/48169.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<div class="view" style="background-image: url('/images/aliststyletop-1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
  <!--Navbar-->
           <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
@@ -9,7 +9,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/clients">Clients</a>
@@ -36,9 +36,9 @@
                 <div class="indexRow">
                   <!--Grid column-->
                   <div class="col-md-12 mb-4 white-text text-center">
-                  <h2>Here is a List of All Stylists</h2>
+                  <h2 class="hr-light text-monospace stylistsTitle">Available Stylists</h2>
                   #if($stylists.size()>0)
-                    <div class ="row" >
+                    <div class ="row  mb-4 " >
                      <div class="col-md-2">
                       ID
                      </div>
@@ -58,12 +58,13 @@
                     <hr>
                     <ol>
                         #foreach ($stylist in $stylists)
-                         <div class ="row" >
+
+                         <div class ="row  list-group-item list-group-item-action flex-column align-items-start  stylish-color-dark text-white overflow-auto" >
                           <div class="col-md-2">
                             <li></li>
                           </div>
-                          <div class="col-md-4">
-                            <a href="/stylists/$stylist.getId()">$stylist.getName()</a>
+                          <div class="col-md-4 ">
+                            <h4><a  class="text-info"    href="/stylists/$stylist.getId()">$stylist.getName()</a></h5>
                           </div>
                           <div class="col-md-2">
                             $stylist.getGender()
@@ -72,12 +73,12 @@
                             $stylist.getContact()
                           </div>
                           <div class="col-md-2">
-                              <div class="col-md-2">
-                                 <a href="/stylists/$stylist.getId()/edit"><img src="/images/e2.png" alt="Edit"></a>
+                              <div class="col-md-2 ">
+                                 <a class="text-uppercase font-weight-bold mb-0 pt-md-5 pt-5" href="/stylists/$stylist.getId()/edit"><i class="fas fa-user-edit text-info"></i></a>
                               </div>
-                              <div class="col-md-2">
+                              <div class="col-md-2 ">
                                  <form action="/stylists/$stylist.getId()/delete" method="post">
-                                  <input type="image" src="/images/delete.png" alt="Delete">
+                                   <button type="submit" class="btn btn-danger" id="delete-task">Delete</button>
                                  </form>
                               </div>
                           </div>
@@ -91,7 +92,7 @@
 
                     </div>
                       <div class="col-sm-9">
-                          <p>NB: Click Stylist Name to see Clients assigned to Him/Her.</p>
+
                       </div>
                     </div>
                     #else
@@ -99,7 +100,7 @@
                     #end
 
                   <br>
-                  <a href="/stylists/new"><button type="button" class="btn btn-success">New Stylist</button></a>
+                  <a href="/stylists/new"><button type="button" class="btn btn-grey">New Stylist</button></a>
                   </div>
                   <!--Grid column-->
                 </div>
@@ -112,18 +113,3 @@
           <!-- Full Page Intro -->
         </header>
         <!-- Main navigation -->
-        <!--Main Layout-->
-        <main>
-          <div class="container">
-            <!--Grid row-->
-            <div class="row py-5">
-              <!--Grid column-->
-              <div class="col-md-12 text-center">
-
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </div>
-        </main>
-        <!--Main Layout-->

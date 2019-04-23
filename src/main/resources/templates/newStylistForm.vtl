@@ -1,4 +1,4 @@
-<div class="view" style="background-image: url('http://yesofcorsa.com/wp-content/uploads/2018/01/Beauty-Saloon-Desktop-Wallpaper-For-PC.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<div class="view" style="background-image: url('/images/hair-2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
  <!--Navbar-->
           <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
@@ -9,7 +9,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/clients">Clients</a>
@@ -31,17 +31,18 @@
             <!-- Mask & flexbox options-->
             <div class="mask rgba-black-light align-items-center">
               <!-- Content -->
-              <div class="container">
+              <div class="container text-white">
                 <!--Grid row-->
                 <div class="indexRow">
                   <!--Grid column-->
                   <div class="col-md-12 mb-4">
-                    <h2><u>New Stylist Details</u></h2>
+
                     <form class="form-horizontal" action="/stylists" method="post">
+                    <h2 class="alignCenter" >New Stylist Details</h2>
                         <div class="form-group">
                          <label class="control-label col-sm-2" for="name">Name:</label>
                          <div class="col-sm-10">
-                           <input type="text" class="form-control" id="name" name ="name" placeholder="Enter Name">
+                           <input type="text" class="form-control  transparentInputFields" id="name" name ="name" placeholder="Enter Name">
                          </div>
                         </div>
                         <div class="form-group">
@@ -55,13 +56,13 @@
                         <div class="form-group">
                          <label class="control-label col-sm-2" for="contact">Phone No:</label>
                          <div class="col-sm-10">
-                           <input type="text" class="form-control" id="contact" name="contact" placeholder="+254 ..">
+                           <input type="text" class="form-control  transparentInputFields" id="contact" name="contact" placeholder="+254 ..">
                          </div>
                         </div>
 
                         <div class="form-group">
                          <div class="col-sm-offset-2 col-sm-10">
-                           <button type="submit" class="btn btn-default">Submit</button>
+                           <button type="submit" class="btn btn-grey">Submit</button>
                          </div>
                         </div>
                     </form>

@@ -57,15 +57,31 @@ h5 {
 }
 
 .hr-light {
-  border-top: 3px solid #fff;
-  width: 80px;
+  border-top: 0.1em solid #fff;
+  width: 40%;
+  margin:auto;
 }
 .indexRow{
+ padding-bottom:10%;
  padding-top:10%;
+}
+.stylistsTitle{
+padding-bottom:20px;
+text-align:center;
 }
 .card{
  background-color:rgba(0,0,0,0.4);
 }
+.transparentInputFields{
+ background-color:rgba(0,0,0,0.4);
+}
+.alignCenter{
+padding-bottom:20px;
+padding-top:20px;
+width:20%;
+margin:auto;
+}
+.typeClass{
+padding-top:20px;
 
-
-
+}
