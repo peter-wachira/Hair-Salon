@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82766a4d-743a-4d25-b6f1-3217087912d0" name="Default Changelist" comment="" />
+    <list default="true" id="82766a4d-743a-4d25-b6f1-3217087912d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newStylistForm.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newStylistForm.vtl" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -65,7 +68,7 @@
           <entry key="gitignore" value="3" />
           <entry key="gradle" value="5" />
           <entry key="java" value="47" />
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
           <entry key="md" value="2" />
           <entry key="vtl" value="42" />
         </counts>
@@ -75,7 +78,7 @@
           <entry key="CSS" value="9" />
           <entry key="Groovy" value="5" />
           <entry key="JAVA" value="47" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="Specification" value="2" />
         </counts>
@@ -89,7 +92,7 @@
           <entry key="java" value="1738" />
           <entry key="js" value="305" />
           <entry key="md" value="172" />
-          <entry key="vtl" value="1688" />
+          <entry key="vtl" value="1690" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -98,7 +101,7 @@
           <entry key="Groovy" value="23" />
           <entry key="JAVA" value="1738" />
           <entry key="JavaScript" value="305" />
-          <entry key="PLAIN_TEXT" value="1713" />
+          <entry key="PLAIN_TEXT" value="1715" />
           <entry key="Specification" value="172" />
         </counts>
       </usages-collector>
@@ -106,11 +109,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="38" column="103" lean-forward="true" selection-start-line="38" selection-start-column="103" selection-end-line="38" selection-end-column="103" />
+              <caret line="38" column="103" selection-start-line="38" selection-start-column="103" selection-end-line="38" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -142,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newStylistForm.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state>
+              <caret column="66" selection-start-column="66" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -154,8 +157,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+            <state>
+              <caret column="72" selection-start-column="72" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -591,13 +603,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/clients.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/success.vtl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/ClientFormEditor.vtl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/newStylistForm.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/StylistFormEditor.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/LICENCE" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/newStylistForm.vtl" />
       </list>
     </option>
   </component>
@@ -630,6 +642,40 @@
               <item name="HairSalon" type="b2602c69:ProjectViewProjectNode" />
               <item name="HairSalon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="HairSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HairSalon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HairSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HairSalon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="HairSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HairSalon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HairSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HairSalon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HairSalon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HairSalon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -638,7 +684,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556094979054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556095507620" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -772,9 +818,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="684" y="25" width="682" height="743" extended-state="4" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3128931" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3121212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -891,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -968,31 +1007,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/StylistFormEditor.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="108" selection-start-line="40" selection-start-column="108" selection-end-line="40" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ClientFormEditor.vtl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newStylistForm.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1033,7 +1051,35 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
-          <caret line="38" column="103" lean-forward="true" selection-start-line="38" selection-start-column="103" selection-end-line="38" selection-end-column="103" />
+          <caret line="38" column="103" selection-start-line="38" selection-start-column="103" selection-end-line="38" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/StylistFormEditor.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="108" selection-start-line="40" selection-start-column="108" selection-end-line="40" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newStylistForm.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
         </state>
       </provider>
     </entry>
