@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82766a4d-743a-4d25-b6f1-3217087912d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="82766a4d-743a-4d25-b6f1-3217087912d0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -89,7 +87,7 @@
           <entry key="gradle" value="23" />
           <entry key="java" value="1738" />
           <entry key="js" value="305" />
-          <entry key="md" value="106" />
+          <entry key="md" value="109" />
           <entry key="vtl" value="1688" />
         </counts>
       </usages-collector>
@@ -100,7 +98,7 @@
           <entry key="JAVA" value="1738" />
           <entry key="JavaScript" value="305" />
           <entry key="PLAIN_TEXT" value="1713" />
-          <entry key="Specification" value="106" />
+          <entry key="Specification" value="109" />
         </counts>
       </usages-collector>
     </session>
@@ -127,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="321">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -661,7 +659,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556078518859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556078545773" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -796,7 +794,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14848486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1073,8 +1070,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="321">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
