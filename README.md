@@ -19,6 +19,7 @@ The stylists work independently, so each client only belongs to a single stylist
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 ```
+
 ## User Requirements
 ```bash
 The applications allow users to do the following:
@@ -36,5 +37,6 @@ You can contact me at pwachira900@gmail.com
 
 ## License
 - This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira](https://github.com/peter-wachira/Hair-Salon/blob/master/LICENCE)
+
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
