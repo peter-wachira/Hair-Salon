@@ -12,6 +12,7 @@ Its an app that allows the owner to add a list of the stylists, and for each sty
 The stylists work independently, so each client only belongs to a single stylist.
 ```
 ## Technologies Used
+
 ```bash
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
