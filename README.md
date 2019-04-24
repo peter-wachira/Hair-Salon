@@ -1,5 +1,5 @@
 # Hair Salon
-#### Hair Salon, April 14th 2019
+#### Hair Salon, April 24th 2019
 #### By **Peter Wachira**
 ![](screenshots/Screenshot1.png)
 ![](screenshots/Screenshot3.png)
