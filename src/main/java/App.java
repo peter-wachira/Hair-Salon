@@ -155,14 +155,14 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
         //retrieving client edit form
-//        get("/clients/:id/edit", (request, response) -> {
-//            Map<String, Object> model = new HashMap<String, Object>();
-//            Client client = Client.find(Integer.parseInt(request.params(":id")));
-//            model.put("client", client);
-//            model.put("stylists", Stylist.all());
-//            model.put("template", "templates/ClientFormEditor.vtl");
-//            return new ModelAndView(model, layout);
-//        }, new VelocityTemplateEngine());
+        get("/clients/:id/edit", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            Client client = Client.find(Integer.parseInt(request.params(":id")));
+            model.put("client", client);
+            model.put("stylists", Stylist.all());
+            model.put("template", "templates/ClientFormEditor.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
 
 
 
