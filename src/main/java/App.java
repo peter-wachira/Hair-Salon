@@ -150,7 +150,7 @@ public class App {
             String gender = request.queryParams("gender");
             String contact = request.queryParams("contact");
             int stylist_id = Integer.parseInt(request.queryParams("stylist_id"));
-            client.update(name.toUpperCase(), gender, contact, stylist_id);
+            client.update(name, gender, contact, stylist_id);
             model.put("template", "templates/success.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
