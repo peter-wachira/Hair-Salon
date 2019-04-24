@@ -30,7 +30,7 @@ You can contact me at pwachira900@gmail.com
 ## License
 ![APM](https://img.shields.io/apm/l/HairSalon.svg?style=for-the-badge)
 - This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira](https://github.com/peter-wachira/Hair-Salon/blob/master/LICENCE)
-[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+-[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+-[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
