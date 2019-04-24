@@ -142,6 +142,27 @@ public class App {
             response.redirect("/clients");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
+        //updating clients objects
+        post("/clients/:id/edit", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            Client client = Client.find(Integer.parseInt(request.params(":id")));
+            String name = request.queryParams("name");
+            String gender = request.queryParams("gender");
+            String contact = request.queryParams("contact");
+            int stylist_id = Integer.parseInt(request.queryParams("stylist_id"));
+            client.update(name.toUpperCase(), gender, contact, stylist_id);
+            model.put("template", "templates/success.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+        //retrieving client edit form
+        get("/clients/:id/edit", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            Client client = Client.find(Integer.parseInt(request.params(":id")));
+            model.put("client", client);
+            model.put("stylists", Stylist.all());
+            model.put("template", "templates/ClientFormEditor.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
 
 
 
