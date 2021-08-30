@@ -10,7 +10,7 @@ Peter Wachira
 ## TOC
 
 - [Installation](#Installation)
-- [Live Demo](#Requirements)
+- [Live Demo](#Tests)
 - [Tests](#Tests)
 - [Requirements](#Requirements)
 - [Known Bugs](#Extras)
