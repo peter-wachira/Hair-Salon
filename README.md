@@ -3,7 +3,6 @@
 #### By **Peter Wachira**
 
 ![](screenshots/Screenshot1.png)
-![](screenshots/Screenshot3.png)
 ## Author's name
 Peter Wachira
 
