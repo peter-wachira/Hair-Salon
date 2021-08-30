@@ -39,7 +39,7 @@ The stylists work independently, so each client only belongs to a single stylist
 
 ## Live Demo
 To view the page click on the link below
- [https://whispering-bastion-65831.herokuapp.com/](*)
+ [https://rembosalon.herokuapp.com/](*)
 
 
 ## Requirements
