@@ -11,7 +11,6 @@ Peter Wachira
 
 - [Installation](#Installation)
 - [Live Demo](#Requirements)
-- [SQL](#SQL)
 - [Tests](#Tests)
 - [Requirements](#Requirements)
 - [Known Bugs](#Extras)
@@ -28,6 +27,10 @@ The stylists work independently, so each client only belongs to a single stylist
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+## Installation
+* `git clone <https://github.com/peter-wachira/Hair-Salon.git>` this repository
+* `cd Hair-Salon`
 
 ## Tests
 
