@@ -5,6 +5,18 @@
 ![](screenshots/Screenshot3.png)
 ## Author's name
 Peter Wachira
+
+
+## TOC
+
+- [Installation](#Installation)
+- [Live Demo](#Requirements)
+- [SQL](#SQL)
+- [Tests](#Tests)
+- [Requirements](#Requirements)
+- [Known Bugs](#Requirements)
+- [Extras](#extras)
+
 ## Description
 
 ```bash
