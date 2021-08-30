@@ -14,8 +14,8 @@ Peter Wachira
 - [SQL](#SQL)
 - [Tests](#Tests)
 - [Requirements](#Requirements)
-- [Known Bugs](#Requirements)
-- [Extras](#extras)
+- [Known Bugs](#Extras)
+- [Extras](#Extras)
 
 ## Description
 
@@ -29,13 +29,17 @@ The stylists work independently, so each client only belongs to a single stylist
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
+## Tests
+
+- To run test, run files under tests/java package for tests.
+
 
 ## Live Demo
 To view the page click on the link below
  [https://whispering-bastion-65831.herokuapp.com/](*)
 
 
-## User Requirements
+## Requirements
 ```bash
 The applications allow users to do the following:
 
@@ -48,6 +52,18 @@ The applications allow users to do the following:
 3.View a list of clients assigned to a stylist
 
 ```
+
+## Known Bugs
+- Quick note that The page loads a bit slow due to the hosting, kindly be a little patient everything works just fine.
+- There are currently no tests done for this project
+- As at the time this project was made, responsiveness was not a major concern 
+- The project is currently not being maintained any more 
+- Thanks for understanding.
+
+
+## Extras
+
+- This project is no longer maintained. But if you want to contribute reach out to me via the details below 
 
 ## Contact Details
 ```bash
