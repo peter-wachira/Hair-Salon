@@ -20,7 +20,7 @@ Peter Wachira
 ## Description
 
 ```bash
-Its an app that allows the owner to add a list of the stylists, and for each stylist, add clients who see that stylist.
+Hair Salon allows the owner to add a list of the stylists, and for each stylist, add clients who see that stylist.
 The stylists work independently, so each client only belongs to a single stylist.
 ```
 ## Technologies Used
@@ -29,12 +29,22 @@ The stylists work independently, so each client only belongs to a single stylist
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
+
+## Live Demo
+To view the page click on the link below
+ [https://whispering-bastion-65831.herokuapp.com/](*)
+
+
 ## User Requirements
 ```bash
 The applications allow users to do the following:
+
 1.Add a new stylist
+
 2.Assign a new client to a stylist
+
 4.View a list of current stylists
+
 3.View a list of clients assigned to a stylist
 
 ```
